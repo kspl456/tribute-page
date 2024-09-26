@@ -42,44 +42,42 @@ a{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding: 2rem;
 }
-#intro,img{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 5rem;
-    margin: 5px;
-}
 .image1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
     border: 1pc;
     border-radius: 10%;
     border-style: double;
     border-color: rgb(247, 153, 143);
+    animation: ease-in;
 }
 #personal{
     background-color:rgb(247, 153, 143);
-    padding: 20px;
-    border-radius: 25px;
+    padding: 2rem;
+    border-radius: 2.5rem;
     
 }
 #scientist{
     background-color:rgb(236, 127, 91);
-    padding: 20px;
-    border-radius: 25px;
+    padding: 2rem;
+    border-radius: 2.5rem;
 }
 #contributions{
     background-color:rgb(247, 153, 143);
-    padding: 20px;
-    border-radius: 25px;
+    padding: 2rem;
+    border-radius: 2.5rem;
 }
 #president{
     background-color:rgb(236, 127, 91);
-    padding: 20px;
-    border-radius: 25px;
+    padding: 2rem;
+    border-radius: 2.5rem;
 }
 #awards{
     background-color:rgb(247, 153, 143);
-    padding: 20px;
-    border-radius: 25px;
+    padding: 2rem;
+    border-radius: 2.5rem;
 }
 .container2{
     margin: 20px;
