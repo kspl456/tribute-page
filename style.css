@@ -12,12 +12,25 @@ html::before {
     z-index: -1; 
 }
 .title{
-    text-align: center;
-    background-color: #ffc8a1d2;
+    display: flex;
+    justify-content: center;
+    align-content: center;
     font-size:xx-large;
     color: whitesmoke;
     font-family: cursive;
+    width: 473px;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 2px solid brown;
+    animation: typing 2s steps(12, end), cursor .2s steps(12, end) infinite;
 }
+@keyframes typing {
+    from { width: 0 }
+}
+@keyframes cursor {
+    50% { border-color: transparent }
+}
+
 .container1{
     margin: 10px;
 }
